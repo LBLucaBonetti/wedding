@@ -6,8 +6,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Marika e Luca | 24 Giugno 2023</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <h1 class="text-3xl font-bold underline">Hello world!</h1>
+    <section class="relative w-screen h-screen">
+      <picture class="absolute inset-0">
+        <source type="image/webp" srcset="img/main.webp" />
+        <source type="image/jpeg" srcset="img/main.jpg" />
+        <img
+          class="w-full h-full object-cover"
+          src="img/main.jpg"
+          alt="Marika e Luca"
+          fetchpriority="high"
+        />
+      </picture>
+
+      <div
+        class="save-the-date absolute select-none text-center text-gray-50 uppercase"
+      >
+        <h1 class="text-9xl font-bold">Save the date</h1>
+        <h2 class="text-6xl mt-3">24 Giugno 2023</h2>
+      </div>
+    </section>
   </body>
 </html>

@@ -1,3 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.save-the-date {
+  font-family: "Amatic SC", cursive;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
