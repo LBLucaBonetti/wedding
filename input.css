@@ -2,9 +2,18 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+}
+
 .save-the-date {
   font-family: "Amatic SC", cursive;
-  top: 50%;
+  top: 65%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+.hello {
+  font-family: "Great Vibes", cursive;
 }

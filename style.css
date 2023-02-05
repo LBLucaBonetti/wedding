@@ -660,12 +660,12 @@ video {
   clear: none;
 }
 
-.mt-2 {
-  margin-top: 0.5rem;
-}
-
 .mt-3 {
   margin-top: 0.75rem;
+}
+
+.mt-2 {
+  margin-top: 0.5rem;
 }
 
 .box-border {
@@ -762,14 +762,6 @@ video {
 
 .h-screen {
   height: 100vh;
-}
-
-.h-full {
-  height: 100%;
-}
-
-.w-screen {
-  width: 100vw;
 }
 
 .w-full {
@@ -1811,11 +1803,6 @@ video {
   line-height: 1;
 }
 
-.text-7xl {
-  font-size: 4.5rem;
-  line-height: 1;
-}
-
 .text-6xl {
   font-size: 3.75rem;
   line-height: 1;
@@ -2224,11 +2211,20 @@ video {
   content: var(--tw-content);
 }
 
+body {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+}
+
 .save-the-date {
   font-family: "Amatic SC", cursive;
-  top: 50%;
+  top: 65%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+.hello {
+  font-family: "Great Vibes", cursive;
 }
 
 .hover\:font-bold:hover {
