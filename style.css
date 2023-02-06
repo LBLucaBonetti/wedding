@@ -1,3 +1,7 @@
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
 .inset-0 {
   inset: 0;
 }
@@ -7,4 +11,8 @@
   top: 65%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+.great-vibes {
+  font-family: "Great Vibes", cursive;
 }
