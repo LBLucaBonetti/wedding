@@ -18,6 +18,12 @@ body {
   transform: translate(-50%, -50%);
 }
 
+.quarter-up-centered {
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 .save-the-date {
   font-family: "Amatic SC", cursive;
 }
