@@ -6,13 +6,26 @@ body {
   inset: 0;
 }
 
-.save-the-date {
-  font-family: "Amatic SC", cursive;
+.almost-centered {
   top: 65%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
 
+.quarter-down-centered {
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.save-the-date {
+  font-family: "Amatic SC", cursive;
+}
+
 .great-vibes {
   font-family: "Great Vibes", cursive;
+}
+
+.nowrap {
+  white-space: nowrap;
 }
