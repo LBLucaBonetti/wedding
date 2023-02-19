@@ -35,3 +35,7 @@ body {
 .nowrap {
   white-space: nowrap;
 }
+
+.comune-colored {
+  color: #b29b65;
+}
