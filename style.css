@@ -36,6 +36,16 @@ body {
   white-space: nowrap;
 }
 
-.comune-colored {
+.golden-colored {
   color: #b29b65;
+}
+
+.centered {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.opacity-80 {
+  opacity: 0.8;
 }
